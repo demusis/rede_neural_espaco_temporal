@@ -11,7 +11,7 @@ class Matrix:
     def __init__(self, colunas, redeneural):
         self.matrix = pd.DataFrame(columns = colunas)
         self.colunas = colunas
-        self.redeneural = redneural
+        self.redeneural = redeneural
         self.kikage = None
         self.X = None
         self.y = None
